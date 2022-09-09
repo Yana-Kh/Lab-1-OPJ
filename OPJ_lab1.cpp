@@ -9,8 +9,10 @@ int main()
     int staj, age;
     string job, name;
 
-    cout << "Введите стаж (лет), место работ, имя и возраст (лет)";
-    cin >> staj >> job >> >> name >> age;
+    cout << "Введите стаж и возраст (лет)";
+    cin >> staj >> age;
+    cout << "Введите место работ, имя";
+    cin >> job >> name;
     
     cout << "Изменения сохранены";
     system("pause");
