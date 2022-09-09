@@ -9,11 +9,15 @@ int main()
     int staj, age;
     string work, name;
 
-    cout << "Введите стаж и возраст (лет)" << endl;
-    cin >> staj >> age;
-    cout << "Введите место работ, имя" << endl;
-    cin >> work >> name;
-    
+    cout << "Введите стаж (лет)" << endl;
+    cin >> staj;
+    cout << "Введите возраст (лет)" << endl;
+    cin >> age;
+    cout << "Введите место работы" << endl;
+    cin >> work;
+    cout << "Введите имя" << endl;
+    cin >> name;
+
     cout << "Изменения сохранены";
     system("pause");
 }
